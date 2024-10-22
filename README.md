@@ -8,12 +8,21 @@
 
 # A Realistic Threat Model for Large Language Model Jailbreaks
 
+**Valentyn Boreiko\*, Alexander Panfilov\***, Vaclav Voracek, Matthias Hein†, Jonas Geiping†
+
 </div>
 
 <div align="center">
 
+[![Read the Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2410.16222v1)
 
 </div>
+
+<p align="center">
+
+\* Joint first authors | † Joint senior authors
+
+</p>
 
 
 
