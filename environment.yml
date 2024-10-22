@@ -1,0 +1,6 @@
+name: llm_threat_model
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - cudatoolkit 
