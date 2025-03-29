@@ -194,7 +194,6 @@ llama2_7b:
 
 llama2_7b_fast: 
   target_model:
-    # model_name_or_path: /fast/apanfilov/huggingface/models--meta-llama--Llama-2-7b-chat-hf
     model_name_or_path: meta-llama/Llama-2-7b-chat-hf
     use_fast_tokenizer: True
     num_gpus: 1
