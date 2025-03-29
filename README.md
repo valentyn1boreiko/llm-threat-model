@@ -1,48 +1,3 @@
-<p align="center">
-
-<img src="assets/threat_model_teaser.png" alt="Threat model for LLMs"/>
-
-</p>
-
-<div align="center">
-
-# A Realistic Threat Model for Large Language Model Jailbreaks
-
-
-<div align="center">
-
-[![Read the Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2410.16222v1)
-
-</div>
-
-
-
-**Valentyn Boreiko\*, Alexander Panfilov\***, Vaclav Voracek, Matthias Hein†, Jonas Geiping†
-
-<p align="center">
-
-\* Joint first authors | † Joint senior authors
-
-</p>
-
-</div>
-
-## 📰 Latest News 📰
-
-* ***[2024/10] 🚀 Initial release*** 🚀
-
-## What are our Threat Model and Adaptive Attacks
-
-We propose a realistic threat model that constraints attacks to perplexity via N-grams and FLOPs and create attacks adaptive to it
-
-## 🌐 Overview 🌐
-<div align="center">
-
-<img src="assets/all_attacks.png" alt="Adaptive attacks"/>
-
-</div>
-
-
 ## ☕ Quick Start ☕
 You might need to call `chmod +777 script_name.sh` on your .sh scripts.
 
@@ -89,20 +44,13 @@ These models can be found in the corresponding model configurations defined in t
 We recommend using models with fast tokenization. Here are some common choices:
 
 - **vicuna_7b_v1_5_fast**
-- **vicuna_13b_v1_5_fast**
 - **starling_lm_7B_alpha_fast**
-- **starling_lm_7B_beta_fast**
 - **llama2_7b_fast**
 - **llama2_13b_fast**
-- **llama2_70b_fast**
 - **llama3_8b_fast**
 - **llama3_1_8b_fast**
-- **llama3_70b_fast**
-- **gemma_2b_fast**
 - **gemma_7b_it_fast**
 - **gemma2_2b_it_fast**
-- **gemma2_9b_it_fast**
-- **r2d2_fast**
 - **llama3_2_1b_fast**
 - **llama3_2_3b_fast**
 
@@ -174,29 +122,3 @@ You can easily add new Hugging Face transformers models in [configs/model_config
 
 ### ➕ Adding/Customizing your own red teaming methods in HarmBench
 All of the red teaming methods are implemented in [baselines](baselines), imported through [baselines/__init__.py](baselines/__init__.py), and managed by [configs/method_configs](configs/method_configs). You can easily improve on top of existing red teaming methods or add new methods by simply making a new subfolder in the `baselines` directory.
-
-
-## 🙏 Acknowledgements and Citation 🙏
-
-We thank the following open-source repositories:
-    
-    [1] https://github.com/centerforaisafety/HarmBench
-    [2] https://github.com/llm-attacks/llm-attacks
-    [3] https://github.com/tml-epfl/llm-adaptive-attacks
-    [4] https://github.com/vinusankars/BEAST
-    [5] https://github.com/patrickrchao/JailbreakingLLMs
-    [6] https://github.com/RICommunity/TAP
-    [7] https://github.com/SheltonLiu-N/AutoDAN
-    [8] https://github.com/lm-sys/FastChat/tree/main/fastchat
-    [9] https://github.com/ray-project/ray
-    [10] https://github.com/vllm-project/vllm
-    [11] https://github.com/huggingface/transformers
-
-If you find this useful in your research, please consider citing our paper:
-```
-@article{boreiko2024llmthreatmodel,
-    title = {A Realistic Threat Model for Large Language Model Jailbreaks},
-    author = {Boreiko, Valentyn and Panfilov, Alexander and Voracek, Vaclav and Hein, Matthias and Geiping, Jonas},
-    journal = {arXiv preprint},
-    year = {2024}
-}
