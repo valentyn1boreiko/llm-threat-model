@@ -8,7 +8,6 @@
 
 # A Realistic Threat Model for Large Language Model Jailbreaks
 
-**Valentyn Boreiko\*, Alexander Panfilov\***, Vaclav Voracek, Matthias Hein†, Jonas Geiping†
 
 </div>
 
@@ -48,8 +47,9 @@ You might need to call `chmod +777 script_name.sh` on your .sh scripts.
 
 ### ⚙️ Installation
 
+Clone repository
+
 ```bash
-git clone https://github.com/valentyn1boreiko/llm-threat-model.git
 cd llm-threat-model 
 ./install_environment.sh
 ./download_unpack_ngrams.sh
@@ -192,12 +192,4 @@ We thank the following open-source repositories:
     [10] https://github.com/vllm-project/vllm
     [11] https://github.com/huggingface/transformers
 
-If you find this useful in your research, please consider citing our paper:
-```
-@article{boreiko2024llmthreatmodel,
-    title = {A Realistic Threat Model for Large Language Model Jailbreaks},
-    author = {Boreiko, Valentyn and Panfilov, Alexander and Voracek, Vaclav and Hein, Matthias and Geiping, Jonas},
-    journal = {arXiv preprint},
-    year = {2024}
-}
-```
+
