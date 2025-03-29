@@ -11,18 +11,6 @@
 
 </div>
 
-<div align="center">
-
-[![Read the Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2410.16222v1)
-
-</div>
-
-
-
-## 📰 Latest News 📰
-
-* ***[2024/10] 🚀 Initial release*** 🚀
-
 
 ## What are our Threat Model and Adaptive Attacks
 
