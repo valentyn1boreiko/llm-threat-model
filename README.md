@@ -17,12 +17,6 @@
 
 </div>
 
-<p align="center">
-
-\* Joint first authors | † Joint senior authors
-
-</p>
-
 
 
 ## 📰 Latest News 📰
