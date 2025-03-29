@@ -2,9 +2,9 @@
 You might need to call `chmod +777 script_name.sh` on your .sh scripts.
 
 ### ⚙️ Installation
+Clone the repository and do the following commands:
 
 ```bash
-git clone https://github.com/valentyn1boreiko/llm-threat-model.git
 cd llm-threat-model 
 ./install_environment.sh
 ./download_unpack_ngrams.sh
