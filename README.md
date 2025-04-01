@@ -15,6 +15,7 @@ cd llm-threat-model
 The first step is to execute a selected attack method on a specified model. 
  
 <details><summary> Supported Attacks: </summary><p>
+ 
 - **PRS**: A black-box adaptive attack that combines in-context attack with random search.
 - **BEAST**: A black-box adaptive attack that iteratively refines test cases based on feedback.
 - **GCG**: A gradient-based attack that directly leverages model gradients for generating adversarial examples.
