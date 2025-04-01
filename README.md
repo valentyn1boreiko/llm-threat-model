@@ -14,48 +14,7 @@ cd llm-threat-model
 
 The first step is to execute a selected attack method on a specified model. 
  
-<details><summary> Supported Attacks: </summary><p>
- 
-- **PRS**: A black-box adaptive attack that combines in-context attack with random search.
-- **BEAST**: A black-box adaptive attack that iteratively refines test cases based on feedback.
-- **GCG**: A gradient-based attack that directly leverages model gradients for generating adversarial examples.
-- **AutoDan**: A dynamic attack that adapts based on the model's response patterns.
-- **PAIR**: A similarity-based attack that tries to fool the model by finding similar but adversarial cases.
-
-These attacks can be found in the `baselines` folder and configured with YAML files in the `configs/method_configs/` folder.
-
-</p></details>
-
-<details><summary> Supported Models: </summary><p>
-
-You can run attacks on a variety of pre-trained language models. Below are some of the supported models:
-- **LLaMA**: Versions 2, 3, 3.1, and 3.2 with sizes ranging from 7B to 70B, safety-tuned.
-- **Vicuna**: Both 7B and 13B, version 1.5, optimized for chat-based applications.
-- **StableLM Zephyr**: A lightweight, robust model focused on resource efficiency.
-- **Starling**: Optimized models for both alpha and beta variants.
-- **Gemma**: Versions 1 and 2 with sizes ranging from 2B to 9B, safety-tuned.
-- **R2D2**: Model, proposed in [[1]](#-acknowledgements-and-citation-), adversarially safety-tuned from Zephyr-7b.
-
 These models can be found in the corresponding model configurations defined in the YAML files under `configs/model_configs/`.
-
-</p></details>
-
-<details><summary> Recommended Models with Fast Tokenization </summary><p>
-
-We recommend using models with fast tokenization. Here are some common choices:
-
-- **vicuna_7b_v1_5_fast**
-- **starling_lm_7B_alpha_fast**
-- **llama2_7b_fast**
-- **llama2_13b_fast**
-- **llama3_8b_fast**
-- **llama3_1_8b_fast**
-- **gemma_7b_it_fast**
-- **gemma2_2b_it_fast**
-- **llama3_2_1b_fast**
-- **llama3_2_3b_fast**
-
-</p></details>
 
 <details><summary> Command Breakdown: </summary><p>
 To run an attack on a model, you need to specify the following:
